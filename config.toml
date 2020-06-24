@@ -68,7 +68,7 @@ paginate     = 10
 
   [[languages.en.params.social]]
     name = "email"
-    url  = "mailto:kanyinsolafapohunda@gmail.com"
+    url  = "mailto:@gmail.com"
 
   [[languages.en.params.social]]
     name = "github"
