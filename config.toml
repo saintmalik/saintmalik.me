@@ -1,7 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "SaintMalik"
-theme = "hello-friend-ng"
 paginate     = 10
 
 [params]
