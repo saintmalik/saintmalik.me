@@ -1,0 +1,105 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "SaintMalik"
+theme = "hello-friend-ng"
+paginate     = 10
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Subtitle for home
+  avatarURL = "/images/saintmalik.jpg"
+  homeSubtitle = "Penetration Tester and Aspiring Securty Analyst."
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Metadata mostly used in document's head
+  description = "Homepage and blog by saint malik"
+  keywords = "programming, coding, sre, devops, android, ios, homepage, blog, software, cloud, development"
+  images = [""]
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+  themeColor = "#252627"
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  # gitUrl = ""
+  
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  customCSS = []
+  customJS  = []
+
+[author]
+  avatarURL = "/images/saintmalik.jpg"
+  name = "SaintMalik"
+  description = "Tech Professional"
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "SaintMalik"
+    subtitle = "Portfolio And Blogs"
+    keywords = ""
+    copyright = ""
+    readOtherPosts = "Read other posts"
+    
+    [languages.en.params.logo]
+      logoText = "~/saintmalik"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+    # Social icons
+  [[languages.en.params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/saintmalik_"
+
+  [[languages.en.params.social]]
+    name = "email"
+    url  = "mailto:kanyinsolafapohunda@gmail.com"
+
+  [[languages.en.params.social]]
+    name = "github"
+    url  = "https://github.com/saintmalik"
+
+    # You can create a language based menu
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "blog"
+        name = "Blogs"
+        url = "/posts"
+      [[languages.en.menu.main]]
+        identifier = "resume"
+        name = "Resume"
+        url = "/resume"
+          
+# And you can even create generic menu
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
+  [[menu.main]]
+    identifier = "resume"
+    name       = "Resume"
+    url        = "/resume"
