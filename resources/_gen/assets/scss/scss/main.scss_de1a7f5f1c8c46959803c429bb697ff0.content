@@ -698,7 +698,7 @@ code {
     font-size: 0.95rem;
 }
 .dark-theme code {
-    background: #ffffff;
+    background: #151515;
 }
 pre {
     background: #212020;
