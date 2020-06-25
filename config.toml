@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://saintmalik.netlify.app"
 languageCode = "en-us"
 title = "SaintMalik"
 paginate     = 10
