@@ -260,46 +260,57 @@ pre[class*="language-"] {
     --tabletWidth: (max-width: 900px);
 }
 @font-face {
-    font-family: "Inter UI";
-    font-style: normal;
-    font-display: auto;
-    font-weight: 400;
-    src: url("../fonts/Inter-UI-Regular.woff2") format("woff2"), url("../fonts/Inter-UI-Regular.woff") format("woff");
-}
+  font-family: geomanist;
+  font-weight: 300;
+  font-style: normal;
+  font-display:swap;
+  src: url(../fonts/geomanist-light-webfont.woff2) format("woff2"),
+       url(../fonts/geomanist-light-webfont.woff) format("woff")
+}       
+
 @font-face {
-    font-family: "Inter UI";
-    font-style: italic;
-    font-display: auto;
-    font-weight: 400;
-    src: url("../fonts/Inter-UI-Italic.woff2") format("woff2"), url("../fonts/Inter-UI-Italic.woff") format("woff");
-}
+  font-family: geomanist;
+  font-weight: 400;
+  font-style: normal;
+  font-display:swap;
+  src: url(../fonts/geomanist-regular-webfont.woff2) format("woff2"),
+       url(../fonts/geomanist-regular-webfont.woff) format("woff")
+}       
+
 @font-face {
-    font-family: "Inter UI";
-    font-style: normal;
-    font-display: auto;
-    font-weight: 600;
-    src: url("../fonts/Inter-UI-Medium.woff2") format("woff2"), url("../fonts/Inter-UI-Medium.woff") format("woff");
-}
+  font-family: geomanist;
+  font-weight: 400;
+  font-style: italic;
+  font-display:swap;
+  src: url(../fonts/geomanist-regular-italic-webfont.woff2) format("woff2"),
+       url(../fonts/geomanist-regular-italic-webfont.woff) format("woff")
+}       
+
 @font-face {
-    font-family: "Inter UI";
-    font-style: italic;
-    font-display: auto;
-    font-weight: 600;
-    src: url("../fonts/Inter-UI-MediumItalic.woff2") format("woff2"), url("../fonts/Inter-UI-MediumItalic.woff") format("woff");
-}
+  font-family: geomanist;
+  font-weight: 600;
+  font-style: normal;
+  font-display:swap;
+  src: url(../fonts/geomanist-medium-webfont.woff2) format("woff2"),
+       url(../fonts/geomanist-medium-webfont.woff) format("woff")
+}       
+
 @font-face {
-    font-family: "Inter UI";
-    font-style: normal;
-    font-display: auto;
-    font-weight: 800;
-    src: url("../fonts/Inter-UI-Bold.woff2") format("woff2"), url("../fonts/Inter-UI-Bold.woff") format("woff");
+  font-family: geomanist;
+  font-weight: 700;
+  font-style: normal;
+  font-display:swap;
+  src: url(../fonts/geomanist-bold-webfont.woff2) format("woff2"),
+       url(../fonts/geomanist-bold-webfont.woff) format("woff")
 }
+
 @font-face {
-    font-family: "Inter UI";
-    font-style: italic;
-    font-display: auto;
-    font-weight: 800;
-    src: url("../fonts/Inter-UI-BoldItalic.woff2") format("woff2"), url("../fonts/Inter-UI-BoldItalic.woff") format("woff");
+  font-family: geomanist;
+  font-weight: 700;
+  font-style: italic;
+  font-display:swap;
+  src: url("../fonts/geomanist-bold-italic-webfont.woff2") format("woff2"),
+       url("../fonts/geomanist-bold-italic-webfont.woff") format("woff")
 }
 .button-container {
     display: table;
@@ -565,7 +576,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "geomanist", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", Helvetica, Arial, sans-serif;
     font-display: auto;
     font-size: 1rem;
     line-height: 1.54;
