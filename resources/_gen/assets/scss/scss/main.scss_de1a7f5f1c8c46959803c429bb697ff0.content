@@ -1098,7 +1098,7 @@ hr {
     flex-direction: row;
     align-items: center;
     font-size: 1rem;
-    color: #f7fafc;
+    color: #999;
 }
 @media (max-width: 900px) {
     .footer__content {
