@@ -1,4 +1,4 @@
-baseURL = "https://saintmalik.netlify.app"
+baseURL = "https://saintmalik.me"
 languageCode = "en-us"
 title = "SaintMalik"
 paginate     = 10
@@ -8,24 +8,24 @@ paginate     = 10
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
-  ProfilePicture = "/saintmalik.jpg"
+  ProfilePicture = "../images/saintmalik.jpg"
 
   # Subtitle for home
-  homeSubtitle = "Penetration Tester and Aspiring Securty Analyst."
+  homeSubtitle = "Pentester and Aspiring Securty Analyst."
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
 
   # Metadata mostly used in document's head
   description = "Homepage and blog by saint malik"
-  keywords = "programming, coding, sre, devops, android, ios, homepage, blog, software, cloud, development"
+  keywords = "soc analyst, coding, cyber security, pentesting, frontend, red team, homepage, blog, penetration testing, cloud security, bug bounty"
   images = [""]
 
   # Directory name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
   # Default theme "light" or "dark"
   defaultTheme = "dark"
-  themeColor = "#252627"
+  themeColor = "#151515"
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""
   

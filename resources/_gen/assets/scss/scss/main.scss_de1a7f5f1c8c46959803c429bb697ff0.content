@@ -648,6 +648,7 @@ img.left {
 img.center {
     margin-left: auto;
     margin-right: auto;
+    border-radius: 50%;
 }
 img.right {
     margin-left: auto;
@@ -1078,7 +1079,6 @@ hr {
 .footer {
     padding: 20px 10px;
     flex-grow: 0;
-    background: #151515;
     color: #999;
 }
 .footer__inner {
