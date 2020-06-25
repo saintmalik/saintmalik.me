@@ -8,9 +8,9 @@ paginate     = 10
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
+  ProfilePicture = "/saintmalik.jpg"
 
   # Subtitle for home
-  avatarURL = "/images/saintmalik.jpg"
   homeSubtitle = "Penetration Tester and Aspiring Securty Analyst."
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
@@ -35,7 +35,6 @@ paginate     = 10
   customJS  = []
 
 [author]
-  avatarURL = "/images/saintmalik.jpg"
   name = "SaintMalik"
   description = "Tech Professional"
 

@@ -1,8 +1,8 @@
 {{ define "main" }}
     <main aria-role="main">
         <div>
-            {{ if .Site.Params.portrait.path }}
-               <img src="{{ .Site.Params.portrait.path }}" class="circle" alt="{{ .Site.Params.portrait.alt }}" />
+            {{ if .Site.Params.ProfilePicture }}
+               <img src="{{ .Site.Params.ProfilePicture }}" class="circle" />
             {{ end }}
 
             <h1>{{ .Site.Title }}</h1>
