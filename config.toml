@@ -32,11 +32,14 @@ paginate     = 10
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
   customCSS = []
-  customJS  = []
+  customJS  = []  
 
 [author]
   name = "SaintMalik"
   description = "Tech Professional"
+  
+[permalinks]
+  posts = "/:title"
 
 [taxonomies]
     category = "blog"
@@ -98,6 +101,6 @@ paginate     = 10
     name       = "Blog"
     url        = "/posts"
   [[menu.main]]
-    identifier = "resume"
-    name       = "Resume"
-    url        = "/resume"
+    identifier = "works"
+    name       = "Works"
+    url        = "/works"
