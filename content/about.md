@@ -1,13 +1,13 @@
 +++
 title = "Hi, I'm SaintMalik "
-date = "2020-06-19"
+date = "2020-06-26"
 aliases = ["about-us","about-me","contact"]
 [ author ]
   name = "SaintMalik"
 +++
 
 
-I'm a Security Analyst.
+I'm a Security Analyst and a penetration tester, formerly a frontend developer before moving back to infosec.
 
 I am new to Go and Hugo.
 

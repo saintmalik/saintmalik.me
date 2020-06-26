@@ -11,7 +11,7 @@ paginate     = 10
   ProfilePicture = "../images/saintmalik.jpg"
 
   # Subtitle for home
-  homeSubtitle = "Pentester and Aspiring Securty Analyst."
+  homeSubtitle = "Penetration tester and Aspiring Securty Analyst."
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -37,7 +37,7 @@ paginate     = 10
 [author]
   name = "SaintMalik"
   description = "Tech Professional"
-  
+
 [permalinks]
   posts = "/:title"
 
