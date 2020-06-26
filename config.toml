@@ -13,6 +13,8 @@ paginate     = 10
   # Subtitle for home
   homeSubtitle = "Penetration tester and Aspiring Securty Analyst."
 
+  googleAnalytics = "UA-123518521-4"
+
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
 
@@ -20,6 +22,14 @@ paginate     = 10
   description = "Homepage and blog by saint malik"
   keywords = "soc analyst, coding, cyber security, pentesting, frontend, red team, homepage, blog, penetration testing, cloud security, bug bounty"
   images = [""]
+
+  enableRobotsTXT = true
+  enableGitInfo   = false
+  enableEmoji     = true
+  enableMissingTranslationPlaceholders = false
+  disableRSS     = false
+  disableSitemap = false
+  disable404     = false
 
   # Directory name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
@@ -83,7 +93,7 @@ paginate     = 10
         url = "/about"
       [[languages.en.menu.main]]
         identifier = "blog"
-        name = "Blogs"
+        name = "Blog"
         url = "/posts"
       [[languages.en.menu.main]]
         identifier = "works"
