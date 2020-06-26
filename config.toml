@@ -2,6 +2,7 @@ baseURL = "https://saintmalik.me"
 languageCode = "en-us"
 title = "SaintMalik"
 paginate     = 10
+googleAnalytics = "UA-123518521-4"
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -12,8 +13,6 @@ paginate     = 10
 
   # Subtitle for home
   homeSubtitle = "Penetration tester and Aspiring Securty Analyst."
-
-  googleAnalytics = "UA-123518521-4"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
