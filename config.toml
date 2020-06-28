@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "SaintMalik"
 paginate     = 10
 googleAnalytics = "UA-123518521-4"
-disqusShortname = "raduciurca"
+disqusShortname = ""
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -60,7 +60,7 @@ disqusShortname = "raduciurca"
   [languages.en]
     title = "SaintMalik"
     subtitle = "Cyber Security Analyst, Penetration Tester and Front-End Developer"
-    keywords = "soc analyst, coding, cyber security, pentesting, frontend, red team, homepage, blog, penetration testing, cloud security, bug bounty"
+    keywords = ""
     copyright = ""
     readOtherPosts = "Read other posts"
     
