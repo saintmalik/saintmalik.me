@@ -1076,6 +1076,22 @@ hr {
 .button.previous .button__icon {
     margin-right: 8px;
 }
+#disqus-container {
+  margin-top: 15px;
+  font-size: 0.85rem;
+  padding: 1.5rem;  
+}
+#disqus-button {
+  width: 100%;
+}
+#disqus-comments {
+  display: none; 
+}
+#disqus-comments,
+#disqus-comments iframe {
+  max-height: 65vh !important;
+  overflow-y: auto; 
+}
 .footer {
     padding: 20px 10px;
     flex-grow: 0;
