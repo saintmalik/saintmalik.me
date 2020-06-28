@@ -2,7 +2,7 @@
 ::-webkit-scrollbar {
     width: 8px;
     height: 8px;
-    background: #000000;
+    background: #151515;
 }
 ::-webkit-scrollbar-thumb {
     background: #000000;
@@ -502,7 +502,7 @@ a.button.wide {
     }
 }
 .menu {
-    background: #fafafa;
+    background: #f7fafc;
     border-right: 1px solid;
     margin-right: 18px;
     z-index: 9999;
@@ -1083,6 +1083,10 @@ hr {
 }
 #disqus-button {
   width: 100%;
+  background: #f7fafc;
+}
+.dark-theme #disqus-button {
+    background: #252627;
 }
 #disqus-comments {
   display: none; 
@@ -1094,8 +1098,11 @@ hr {
 }
 .footer {
     padding: 20px 10px;
+    background: #f7fafc;
     flex-grow: 0;
-    color: #999;
+}
+.dark-theme .footer {
+    background: #252627;
 }
 .footer__inner {
     display: flex;
