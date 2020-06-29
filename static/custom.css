@@ -415,7 +415,7 @@ a.button.wide {
     color: inherit;
 }
 .header {
-    background: #fafafa;
+    background: #f7fafc;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1102,7 +1102,9 @@ hr {
     flex-grow: 0;
 }
 .dark-theme .footer {
-    background: #252627;
+    background: #151515;
+    opacity: 0.7;
+    color: #f7fafc !important;
 }
 .footer__inner {
     display: flex;

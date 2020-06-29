@@ -1,6 +1,6 @@
 +++
 title = "About Me"
-keywords = "soc analyst, coding, cyber security, pentesting, frontend, red team, homepage, blog, penetration testing"
+description = "soc analyst, coding, cyber security, pentesting, frontend, red team, homepage, blog, penetration testing"
 date = "2020-06-26"
 aliases = ["about-us","about-me","contact"]
 [ author ]

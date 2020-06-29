@@ -1,17 +1,13 @@
 ---
-author: "Saintmalik"
-date: 2020-06-24
-linktitle: How to Install TeamViewer on Ubuntu 20.04
-cover: "../images/featured.webp"
-type:
-- post
-- posts
-title: How to Install TeamViewer on Ubuntu 20.04
-description: "This is an example post for hugo-theme-codex,egvgc whvcjhvchvwdhyvhsvhcvwvcqcvwgvqhvcvsv cgvgc ugsvcuvshcvuvihwvch hjc hvcvevivecvevejhcvhvcgvsugcvusvchvechvevcjh."
-weight: 10
-tags: ['value_1', 'value_2']
-series: 
-- Hugo 101
+title: "Welcome To Codex"
+date: 2020-06-04T09:17:29-04:00
+slug: "example-post"
+description: "This is an example post for hugo-theme-codex."
+keywords: ["gohugo", "hugo", "go", "blog"]
+draft: false
+tags: ["hugo"]
+math: false
+toc: true
 ---
 
 ## The standard Lorem Ipsum passage
