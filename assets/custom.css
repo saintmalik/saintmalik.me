@@ -789,6 +789,8 @@ ol ol {
     align-items: center;
     justify-content: center;
     margin: 0;
+    line-height: 2;
+    margin-bottom: 1.666666666667em;
 }
 @media (max-width: 684px) {
     .content {
@@ -931,6 +933,7 @@ hr {
 .post-title {
     font-size: 2.625rem;
     margin: 0 0 20px;
+    line-height: 1.2;
 }
 @media (max-width: 684px) {
     .post-title {
