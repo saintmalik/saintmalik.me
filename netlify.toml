@@ -4,4 +4,19 @@
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
-    Referrer-Policy = "strict-origin-when-cross-origin"
+    Content-Security-Policy = "form-action https:"
+    Referrer-Policy = "no-referrer-when-downgrade"
+    Feature-Policy = "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'"
+
+    [build.processing]
+    skip_processing = false
+    [build.processing.css]
+    bundle = true
+    minify = false
+    [build.processing.js]
+    bundle = true
+    minify = false
+    [build.processing.html]
+    pretty_urls = true
+    [build.processing.images]
+    compress = true
