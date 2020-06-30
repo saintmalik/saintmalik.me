@@ -3,12 +3,12 @@ author: "Saintmalik"
 date: 2020-06-24
 linktitle: How to Install TeamViewer on Ubuntu 20.04
 cover: "../images/featured.webp"
-tags: ['value_1', 'value_2']
+tags: ['hugo', 'test']
 type:
 - post
 - posts
 title: How to Install TeamViewer on Ubuntu 20.04
-description: "This is an example post for hugo-theme-codex,egvgc whvcjhvchvwdhyvhsvhcvwvcqcvwgvqhvcvsv cgvgc ugsvcuvshcvuvihwvch hjc hvcvevivecvevejhcvhvcgvsugcvusvchvechvevcjh."
+description: "This is an example post for hugo-theme-codex"
 weight: 10
 series: 
 - Hugo 101

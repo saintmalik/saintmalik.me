@@ -19,8 +19,7 @@ disqusShortname = "myfoliosite"
   disableReadOtherPosts = false
 
   # Metadata mostly used in document's head
-  description = "Homepage and blog by saint malik"
-  keywords = "soc analyst, coding, cyber security, pentesting, frontend, red team, homepage, blog, penetration testing, cloud security, bug bounty"
+  description = "SaintMalik | Cyber Security Analyst | Bug Bounty Hunter | Penetration Tester | Bash, JavaScript, Vue.js | Security Analyst"
   images = [""]
 
   enableRobotsTXT = true

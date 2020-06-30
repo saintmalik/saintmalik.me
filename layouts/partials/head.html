@@ -51,6 +51,9 @@
     <meta property="article:section" content="{{ . }}" />
 {{ end }}
 
+<!-- Optimize-->
+<link rel="dns-prefetch" href="https://www.googletagmanager.com">
+<link href="https://www.googletagmanager.com" rel="preconnect" crossorigin>
 <!-- RSS -->
 {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
