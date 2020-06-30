@@ -27,6 +27,8 @@
     {{ end }}
 {{ end }}
 
+<!--Preload-->
+
 <!-- Icons -->
 <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
@@ -51,6 +53,8 @@
 <!-- Optimize-->
 <link rel="dns-prefetch" href="https://www.googletagmanager.com">
 <link href="https://www.googletagmanager.com" rel="preconnect" crossorigin>
+<link rel="preload" as="font" href="../fonts/geomanist-bold-webfont.woff2" crossorigin>
+<link rel="preload" as="font" href="../fonts/geomanist-regular-webfont.woff2" crossorigin>
 <!-- RSS -->
 {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
