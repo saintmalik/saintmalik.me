@@ -1081,8 +1081,7 @@ hr {
 }
 #disqus-container {
   margin-top: 15px;
-  font-size: 0.85rem;
-  padding: 1.5rem;  
+  font-size: 0.85rem; 
 }
 #disqus-button {
   width: 100%;

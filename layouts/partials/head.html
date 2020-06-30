@@ -18,9 +18,6 @@
 {{ end }}
 
 <!-- CSS -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
-    type="text/css">
-
     {{ $style := resources.Get "/custom.css" | minify | fingerprint "md5" }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
