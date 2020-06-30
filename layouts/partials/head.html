@@ -18,7 +18,7 @@
 {{ end }}
 
 <!-- CSS -->
-    {{ $style := resources.Get "/custom.css" | minify | fingerprint "md5" }}
+    {{ $style := resources.Get "/styles.css" | minify | fingerprint "md5" }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
 {{ range $val := $.Site.Params.customCSS }}
@@ -49,8 +49,8 @@
 {{ end }}
 
 <!-- Optimize-->
-<link rel="dns-prefetch" href="https://www.googletagmanager.com">
-<link href="https://www.googletagmanager.com" rel="preconnect" crossorigin>
+<link rel="dns-prefetch" href="https://www.google-analytics.com">
+<link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
 <link rel="preload" as="font" href="../fonts/geomanist-bold-webfont.woff2" crossorigin>
 <link rel="preload" as="font" href="../fonts/geomanist-regular-webfont.woff2" crossorigin>
 <!-- RSS -->
