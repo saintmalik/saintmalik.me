@@ -45,7 +45,6 @@ disqusShortname = "myfoliosite"
 
 [author]
   name = "SaintMalik"
-  description = "Tech Professional"
 
 [permalinks]
   posts = "/:title"
@@ -113,13 +112,3 @@ disqusShortname = "myfoliosite"
     identifier = "works"
     name       = "Works"
     url        = "/works"
-
-[server]
-[[server.headers]]
-for = "/**.html"
-
-[server.headers.values]
-X-Frame-Options = "DENY"
-X-XSS-Protection = "1; mode=block"
-X-Content-Type-Options = "nosniff"
-Referrer-Policy = "strict-origin-when-cross-origin"
