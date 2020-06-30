@@ -1,3 +1,4 @@
+  [[headers]]
   for = "/*" # This defines which paths this specific [[headers]] block will cover.
   [headers.values]
     X-Frame-Options = "DENY"
