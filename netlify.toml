@@ -7,6 +7,3 @@
     Content-Security-Policy = "form-action https:"
     Referrer-Policy = "no-referrer-when-downgrade"
     Feature-Policy = "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'"
-
-   [build.processing.images]
-    compress = true
