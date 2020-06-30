@@ -19,7 +19,7 @@
 
 <!-- CSS -->
     {{ $style := resources.Get "/styles.css" | minify | fingerprint "md5" }}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="print">
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
 {{ range $val := $.Site.Params.customCSS }}
     {{ if gt (len $val) 0 }}
