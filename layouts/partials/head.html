@@ -51,8 +51,8 @@
 <!-- Optimize-->
 <link rel="dns-prefetch" href="https://www.google-analytics.com">
 <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
-<link rel="preload" as="font" href="../fonts/geomanist-bold-webfont.woff2" crossorigin>
-<link rel="preload" as="font" href="../fonts/geomanist-regular-webfont.woff2" crossorigin>
+<link rel="preload" as="font" href="../fonts/geomanist-bold-webfont.woff2" crossorigin="anonymous">
+<link rel="preload" as="font" href="../fonts/geomanist-regular-webfont.woff2" crossorigin="anonymous">
 <!-- RSS -->
 {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
