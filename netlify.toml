@@ -7,3 +7,15 @@
     Content-Security-Policy = "form-action https:"
     Referrer-Policy = "no-referrer-when-downgrade"
     Feature-Policy = "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'"
+  [[headers]]
+    for = "/img/*"
+  [headers.values]
+    Cache-Control = "public, s-max-age=31536000"
+  [[headers]]
+    for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, s-max-age=31536000"
+  [[headers]]
+    for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, s-max-age=31536000"
