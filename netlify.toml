@@ -7,4 +7,8 @@
     Content-Security-Policy = "form-action https:"
     Referrer-Policy = "no-referrer-when-downgrade"
     Feature-Policy = "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'"
-    Cache-Control = "public, s-max-age=31536000"
+    Cache-Control = "public"
+  [[headers]]
+  for = "/posts/*" # This defines which paths this specific [[headers]] block will cover.
+  [headers.values]
+    Cache-Control = "public, s-max-age=604800"
