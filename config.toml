@@ -87,7 +87,7 @@ disqusShortname = "myfoliosite"
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "about"
-        name = "About"
+        name = "Who am i"
         url = "/about"
       [[languages.en.menu.main]]
         identifier = "blog"
