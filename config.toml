@@ -102,7 +102,7 @@ disqusShortname = "myfoliosite"
 [menu]
   [[menu.main]]
     identifier = "about"
-    name       = "About"
+    name       = "Who am i"
     url        = "/about"
   [[menu.main]]
     identifier = "blog"
