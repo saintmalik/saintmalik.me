@@ -101,7 +101,7 @@ disqusShortname = "myfoliosite"
 # And you can even create generic menu
 [menu]
   [[menu.main]]
-    identifier = "about"
+    identifier = "who am i"
     name       = "Who am i"
     url        = "/about"
   [[menu.main]]
