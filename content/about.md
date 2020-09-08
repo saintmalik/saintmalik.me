@@ -10,7 +10,7 @@ aliases = ["about-us","about-me","contact"]
 
 I'm a Penetration tester and an aspiring Security Analyst, formerly a Frontend developer before moving back to infosec.
 
-I am new to GO lang, but back in my Frontend Dev career am a very Big Fan of javascript, most especially Vuejs, which is a javascript framework, i develpoed my interest back in InfoSec because thats where i came from, i love working more on terminal and mostly Web applications, someday i will look into Android Pentesting and Security.
+Back in my Frontend Dev career am a very Big Fan of javascript, most especially Vuejs, which is a javascript framework, i develpoed my interest back in InfoSec because thats where i came from, i love working more Web applications, someday i will look into Android Pentesting and Security.
 
 #### Book/Article Recommendations
 - [Do The Real Thing - How To Practically Learn Something](https://www.scotthyoung.com/blog/2020/0504/do-the-real-thing)

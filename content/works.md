@@ -28,12 +28,13 @@ Still Learning and Hunting
 * * *
 #### Google Africa Developer Scholarship (GADS)
 -   Mentor for Mobile Web Track, June 2020 - .
+#### NoGoFallMaga
+-   Volunteer [@nogofallmaga](http://twitter.com/nogofallmaga "Title")
 
 ## Skills 
 * * *
 - Web Appplication Security
 - Penetration Testing
 - Vuejs
-- Strated Learning GO
 - Linux
 - The rest will be updated soon
