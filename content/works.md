@@ -27,9 +27,9 @@ Still Learning and Hunting
 ## Volunteer Experience
 * * *
 #### Google Africa Developer Scholarship (GADS)
--   Mentor for Mobile Web Track, June 2020 - .
+-   Mentor for Mobile Web Track, June 2020
 #### NoGoFallMaga
--   Volunteer [@nogofallmaga](http://twitter.com/nogofallmaga "Title")
+-   Volunteer [@nogofallmaga](http://twitter.com/nogofallmaga)
 
 ## Skills 
 * * *
