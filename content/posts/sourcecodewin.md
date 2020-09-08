@@ -1,6 +1,7 @@
 ---
 author: "Saintmalik"
 date: 2020-09-08
+slug: "bypassing-auth-by-reading-source-code"
 title: Bypassing Auth By Reading Source Code(JS files)
 cover: "../images/bypassauth.png"
 tags: ['websec', 'infosec']

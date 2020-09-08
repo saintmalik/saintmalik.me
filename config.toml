@@ -47,7 +47,7 @@ disqusShortname = "myfoliosite"
   name = "SaintMalik"
 
 [permalinks]
-  posts = "/:title"
+  posts = "/:slug"
 
 [taxonomies]
     category = "blog"
