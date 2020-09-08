@@ -15,7 +15,7 @@ series:
 - Web AppSec
 ---
 
-Yeah, just wanna share to a little story about the bypass of an authentication through souece code reading.
+Yeah, just wanna share to a little story about the bypass of an authentication through source code reading.
 
 Let's jump right in,
 
