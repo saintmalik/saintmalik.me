@@ -41,7 +41,7 @@ Now I started reading the source code, knowing that only JavaScript can do this 
 
 Reading the JS files, I saw this endpoint **/home** 🤗, then I read the function which this endpoint was appended too.
 
-So I got to know that when the whole Auth process is done. Users are redirected to the **/home** page. Well no backed is handling this right? 
+So I got to know that when the whole Auth process is done. Users are redirected to the **/home** page. Well no backend is handling this right? 
 
 Then let me just try the endpoint out and see if I get a **401**,**403** or **500** errors but to my surprise I got a **200(OK)** response and the page loaded up.
 
