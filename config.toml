@@ -13,7 +13,7 @@ disqusShortname = "myfoliosite"
   ProfilePicture = "../images/saintmalik.jpg"
 
   # Subtitle for home
-  homeSubtitle = "Penetration tester and Aspiring Securty Analyst."
+  homeSubtitle = "Penetration tester and Aspiring Security Analyst."
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
