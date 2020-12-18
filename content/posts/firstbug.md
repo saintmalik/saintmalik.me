@@ -35,7 +35,7 @@ After digging well, Soon I found that I can leave something on the profile dashb
 
 Because the user profile has an option to edit, add your bio, add some texts, so I wrote somethings, and I started with >< and I was like this is my fish, I have to catch and roast it.
 
-So I didn't even stress myself, I got the common payload which is <script>alert(1)</script>, I inserted this payload into the bio box and I saved it and the bio box went blank.
+So I didn't even stress myself, I got the common payload which is "<script>alert(1)</script>", I inserted this payload into the bio box and I saved it and the bio box went blank.
 
 Not that the payload isn't there but the website functionality made it looks like a white text, so immediately I refreshed the page and boom!!!.
 
