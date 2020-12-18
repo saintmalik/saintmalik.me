@@ -1,15 +1,15 @@
 ---
 author: "Saintmalik"
-date: 2020-09-08
-slug: "bypassing-auth-by-reading-source-code"
-title: Bypassing Auth By Reading Source Code(JS files)
+date: 2020-12-18
+slug: "how-i-found-my-first-bug"
+title: My First Bug: Stored XSS on Private Bounty Program
 cover: "../images/bypassauth.png"
 tags: ['websec', 'infosec']
 type:
 - post
 - posts
-title: Bypassing Auth By Reading Source Code(JS files)
-description: "Reading source code to break an web app"
+title: My First Bug: Stored XSS on Private Bounty Program
+description: "How i go my first bug and i was paid $$$ bounty"
 weight: 10
 series: 
 - Web AppSec
