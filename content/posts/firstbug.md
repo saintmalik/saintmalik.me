@@ -1,8 +1,25 @@
-So I started to participate in bug bounty programs not so long before, and soon I found at least 2 places are vulnerable for stored XSS on quite a big educational platform.
+---
+author: "Saintmalik"
+date: 2020-12-18
+slug: "my-first-bug-stored-xss"
+title: My First Bug: Stored XSS on Private Bounty Program
+cover: "../images/bypassauth.png"
+tags: ['websec', 'infosec']
+type:
+- post
+- posts
+title:  My First Bug: Stored XSS on Private Bounty Program
+description: "How i go my first bug and i was paid $$$ bounty"
+weight: 10
+series: 
+- Web AppSec
+---
 
-They have many users and also have some big banks and firms being their partner, the website helps users to learn to code.
+So I started to participate in bug bounty programs not so long before, and soon later I found at least 2 places are vulnerable for stored XSS on quite a big educational platform which i was using for learnig web development last year.
 
-The website’s dashboard enables users to submit their details without being filtered, XSS payloads can be added into the Boxes to triggered XSS on the profile page of the user in a browser.
+They have many users and also have some big banks and firms being as their partner, the website helps users to learn how to code.
+
+The website’s dashboard enables users to submit their details and luckily it doesn't sanitize users input, XSS payloads can be added into the Boxes to triggered XSS on the profile page of the user in a browser.
 
 So any users visiting another user's profile is vulnerable to the execution of the payload.
 
