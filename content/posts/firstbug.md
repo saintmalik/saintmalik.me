@@ -2,13 +2,13 @@
 author: "Saintmalik"
 date: 2020-12-18
 slug: "how-i-found-my-first-bug"
-title: My First Bug: Stored XSS on Private Bounty Program
+title: Stored XSS on Private Bounty Program (My First Bug)
 cover: "../images/bypassauth.png"
 tags: ['websec', 'infosec']
 type:
 - post
 - posts
-title: My First Bug: Stored XSS on Private Bounty Program
+title: Stored XSS on Private Bounty Program (My First Bug)
 description: "How i go my first bug and i was paid $$$ bounty"
 weight: 10
 series: 
