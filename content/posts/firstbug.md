@@ -15,7 +15,7 @@ series:
 - Web AppSec
 ---
 
-So I started to participate in bug bounty programs not so long before, and soon later I found at least 2 places are vulnerable for stored XSS on quite a big educational platform which i was using for learnig web development last year.
+So I started participating in bug bounty not so long and after alot of readups and web app practice, I found a stored XSS on quite a big educational platform which i was using for learnig web development last year.
 
 They have many users and also have some big banks and firms being as their partner, the website helps users to learn how to code.
 
