@@ -15,30 +15,30 @@ series:
 - Web AppSec
 ---
 
-So I started participating in bug bounty not so long and after alot of readups and web app practice, I found a stored XSS on quite a big educational platform which i was using for learnig web development last year.
+So I started participating in bug bounty not so long and after alot of readups and web app practice, I found a stored XSS on quite a big education platform which i was using for learnig web development last year.
 
-They have many users and also have some big banks and firms being as their partner, the website helps users to learn how to code.
+They have many users and also some big firms as their partner, this platform help users to learn how to code.
 
-The website’s dashboard enables users to submit their details and luckily it doesn't sanitize users input, XSS payloads can be added into the Boxes to triggered XSS on the profile page of the user in a browser.
-
-So any users visiting another user's profile is vulnerable to the execution of the payload.
+They joined Hackerone this year and i was invited to their private program, well i found nothing till they closed their bounty program off hackerone, sent in two reports though, one N/A the other got me a negative signal😭😀.
 
 ## How I Discovered The Stored XSS
 
-On this very day, I logged into the platform, because the platform is a learning ground, so I wasn't in the mood to start looking at video tutorial nor to ready to read anything cause the course in my list out table seems bulky.
+On this very day, I logged into the platform to continue my studies, The platform contains Both FE Dev/BE Dev/Full Stack/Android and UI/UX courses, Unfortunately i wasn't in the mood to start looking at video tutorial neither am i ready to read anything because the course in my Track seems bulky.
 
-So instead of learning, I said let me even test some of my bug bounty skills on this platform, first I looked for any reflected XSS entry points like searching function on the website and improper error messages displayed.
+So instead of learning, I said let me even test some of my web appsec skills on this platform, first I looked for any reflected XSS entry points like Searching Function(Search Box) on the website and improper error messages displayed.
 
 And I had no luck 😦 , But sometimes misfortune is a blessing in disguise.
 
-After digging well, Soon I found that I can leave something on the profile dashboard.
+After digging well, Soon I found out that I can leave something on the profile dashboard.
 
-Because the user profile has an option to edit, add your bio, add some texts, so I wrote somethings, and I started with >< and I was like this is my fish, I have to catch and roast it.
+Because the user profile dashboard has an option to edit, add your bio, add some texts, so I wrote somethings, and I started with ></" to see if they get sanitized, I inspected the text, i noticed it was not sanitized or filtered out. Then i gave the dashboard a good attention.
 
-So I didn't even stress myself, I got the common payload which is the "scriptalert(1)/script", you know thats the most common payload anyway. I inserted this payload into the bio box and I saved it and the bio box went blank😳.
+I got the common payload which is the "scriptalert(1)/script", you know thats the most common payload anyway. I typed this payload into the bio box and I saved it, to my suprise the bio box went blank😳, but on highlighting the text, it was showing.
 
-Not that the payload isn't there but the website functionality made it looks like a white text, so immediately I refreshed the page and boom!!!.
+Not that the payload isn't there but the website functionality made it looks like a white text, so refreshed the page immediately to see if anything comes up, Well the Alert PoPup triggered.
 
 The stored XSS triggered, Damm I was so happy, you know that feeling when you get your first bug😩😭😊✌️.
 
-But the anxiety in me made me report without thinking of some ways to make the bug more complex and dangerous, so I got a some $ and at least am happy because I got my first bug.
+So whenever another user visits my profile page the xxs payload triggers on their browser also, meaning i could have done or chain the stored xss probably to an account tackover or somethng else.
+
+But the anxiety in me made me report without thinking of some ways to make the bug more complex and critical, so I was rewarded with $$$ and atleast I was happy i got my first bug.
