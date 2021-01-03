@@ -1,0 +1,7 @@
+spec:
+ name: Hugo Portfolio
+ services:
+ - name: web
+   git:
+     branch: master
+     repo_clone_url: https://github.com/saintmalik/saintmalik.me.git
