@@ -1,7 +1,7 @@
 echo "lets push things"
 git add .
 
-git commit -m "Still upadting about and works page"
+git commit -m "Still updating the about,blog and works page"
 
 git push
 sleep 2
