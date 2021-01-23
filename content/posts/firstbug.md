@@ -35,7 +35,7 @@ Because the user profile dashboard has an option to edit, add your bio, add some
 
 I got the common payload which is the "&lt;script&gt;alert(1)&lt;/script&gt;", you know thats the most common payload anyway. I typed this payload into the bio box and I saved it, to my suprise the bio box went blank😳, but on highlighting the text, it was showing.
 
-Not that the payload isn't there but the website functionality made it looks like a white text, so refreshed the page immediately to see if anything comes up, Well the Alert PoPup triggered.
+Not that the payload isn't there but the website functionality made it looks like a white text, so i refreshed the page immediately to see if anything comes up, Well the Alert PoPup triggered.
 
 The stored XSS triggered, Damm I was so happy, you know that feeling when you get your first bug😩😭😊✌️.
 
