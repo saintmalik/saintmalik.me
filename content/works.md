@@ -30,6 +30,8 @@ Still Learning and Hunting
 -   Mentor for Mobile Web Track, June 2020
 #### NoGoFallMaga
 -   Volunteer [@nogofallmaga](http://twitter.com/nogofallmaga)
+#### Diary Of Hackers(DoH)
+-   Campus Lead [@DoHEksu](https://twitter.com/DiaryOfHackers)
 
 ## Skills 
 * * *
