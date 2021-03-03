@@ -12,7 +12,7 @@ name = "SaintMalik"
 #### Freelance: Frontend Developer
  Freelance
 
- till present only on projects that can be completed in a week.
+ till present only on projects that can be completed in a week or two.
 
 #### Bug Bounty Hunter
 HackerOne, Intigriti
